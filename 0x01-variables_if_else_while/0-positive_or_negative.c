@@ -4,6 +4,10 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ *
+ * Description: check if a random number is positive, zero or negative.
+ */
 int main(void)
 {
 	int n;
