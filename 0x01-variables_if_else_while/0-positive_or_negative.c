@@ -5,6 +5,7 @@
 
 /* betty style doc for function main goes there */
 /**
+ * main - entry point 
  *
  * Description: check if a random number is positive, zero or negative.
  */
