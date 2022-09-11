@@ -1,3 +1,2 @@
 #!/bin/bash
-OUTPUT=$(echo $CFILE | cut -d '.' -f 1)
-gcc $CFILE -o $OUTPUT.o
+gcc $CFILE -o $(echo $CFILE | cut -d '.' -f 1).o
