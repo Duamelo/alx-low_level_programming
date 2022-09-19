@@ -1,6 +1,6 @@
 #include "main.h"
-0;276;0c#include <string.h>
-#include <stdio.h>
+#include <string.h>
+
 
 /**
  * puts_half - function that should print the second half of the string
