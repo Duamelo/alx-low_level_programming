@@ -1,0 +1,29 @@
+#include "main.h"
+
+
+/**
+ * puts2 - function that prints every other character of a string
+ *
+ * @str: string parameter to be printed caracter by caracter
+ *
+ * Description: prints every character of a string, end by a new line
+ *
+ * Return: Nothing
+ */
+void puts2(char *str)
+{
+	int i;
+	char c;
+
+	i = 0;
+	while (str[i] != '\0')
+	{
+		c = str[i];
+		if (!c % 2)
+		{
+			_putchar(str[i]);
+		}
+		i++;
+	}
+	_putchar('\n');
+}

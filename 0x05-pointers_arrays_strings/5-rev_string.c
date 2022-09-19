@@ -1,4 +1,5 @@
 #include <string.h>
+#include <stdio.h>
 #include "main.h"
 
 
@@ -19,6 +20,7 @@ void rev_string(char *s)
 
 	j = 0;
 	i = strlen(s) - 1;
+	printf("%d\n", i);
 	while (j <= i / 2)
 	{
 		tmp = s[j];
