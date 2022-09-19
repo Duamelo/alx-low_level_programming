@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>
+0;276;0c#include <string.h>
 #include <stdio.h>
 
 /**
@@ -20,7 +20,6 @@ void puts_half(char *str)
 	if (size % 2 == 0)
 	{
 		i = size / 2;
-		printf("pair\n");
 		while (str[i] != '\0')
 		{
 			_putchar(str[i]);
