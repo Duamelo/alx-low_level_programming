@@ -1,16 +1,12 @@
-#include <stdio.h>
 #include "dog.h"
 #include <stdlib.h>
 
 /**
- * new_dog - Entry point
- * @name: dog's name
- * @age: dog's age
- * @owner: owner's dog
- *
- * Description: function that creates a new dog
- *
- * Return: Null if the function fails, otherwise a new dog
+ * new_dog - entry point
+ * @name: string from main, name of dog
+ * @age: number from main, age of dog
+ * @owner: string from main, owner of dog
+ * Return: dog
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
