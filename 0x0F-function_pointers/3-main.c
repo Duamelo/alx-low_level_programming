@@ -6,9 +6,9 @@
  * main - Entry point
  *
  * @argc:  number of argument passed to program
- * @argv: array's characte of argument passed to the program
+ * @argv: double pointer to argument
  *
- * Return: 0
+ * Return: 0 as success
  */
 int main(int argc, char *argv[])
 {
