@@ -53,7 +53,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 	number_of_bytes_printed = write(1, buf, i);
-	if (number_of_bytes_printed == -1)
+	if (number_of_bytes_printed == -1 || number_of_bytes_printed != (int)i)
 	{
 		return (0);
 	}
