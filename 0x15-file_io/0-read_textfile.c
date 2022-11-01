@@ -19,10 +19,8 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int fd;
+	int fd, number_of_bytes_readed, number_of_bytes_printed;
 	size_t i = 0;
-	int number_of_bytes_readed;
-	int number_of_bytes_printed;
 	char *buf;
 
 	buf =  (char *)malloc(sizeof(char) * (letters + 1));
@@ -34,9 +32,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	{
 		return (0);
 	}
-
 	fd = open("Requiescat", O_RDWR);
-
 	if (fd == -1)
 	{
 		return (0);
